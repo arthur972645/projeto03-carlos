@@ -82,4 +82,47 @@ body{
 }
 .character-box img{
     width: 200px;
+    border-radius: 10px;
+}
+.character-info .character-link{
+    color: var(--white);
+    text-decoration: none;
+}
+.character-info h3:hover,.character-info .character-link:hover{
+    color: var(--orange-400);
+}
+.character-info .Alive::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(5,190,5);
+}
+.character-info .Alive::before{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    margin-left: 0.4rem;
+}
+.character-info .location{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.character-info .origin{
+    margin-top: 1rem;
+    font-weight: 600;
+}
+.location-sesseion{
+    background-color: var(--gray-800);
+    text-align: center;
+}
+.location-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    gap: ;
 }
